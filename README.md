@@ -31,14 +31,14 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 
 ### [Day03: Linked Lists](./Day03_LinkedList01/) 
 
-> 2.5hrs
+> 3.0hrs
 
 
 Dummy Head - AC: *leetcode203*
 
 Design Linked-lists - AC: *leetcode206*
 
-Reverse Linked List - AC: ***leetcode707***
+Reverse Linked List - TBC: ***leetcode707***
 
 ---
 
