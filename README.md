@@ -11,7 +11,7 @@ Binary Search - AC: *leetcode704/35*. TBC: Leetcode/34/69/367
 
 Double Pointers - AC: *Leetcode17* TBC: Leetcode26/283/844/977.
 
---- 
+---
 
 ### [Day02: Double Pointers & Slider Window & Spiral Matrix](./Day02_Arrays02/) 
 
@@ -36,9 +36,27 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 
 Dummy Head - AC: *leetcode203*
 
-Design Linked-lists - AC: *leetcode206*
+Design Linked-listst - AC: *leetcode206*
 
-Reverse Linked List - TBC: ***leetcode707***
+Double Pointers \ Recursive  - TBC: ***leetcode707***
 
 ---
+
+### [Day04: Linked Lists](./Day04_LinkedList02/) 
+
+> 2.24hrs
+
+
+Dummy Head & *Recursive* - AC: *leetcode24*
+
+Double Pointers - AC: *leetcode19*
+
+Intersection of 2 linked lists - TBC: ***leetcode160***
+
+Linked list cycle - TBC:***leetcode142***
+
+---
+
+
+
 
