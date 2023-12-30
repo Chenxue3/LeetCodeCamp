@@ -149,12 +149,12 @@ note: using Temp Node
 
   
 
-- Method one: Double pointer. 如果要删除倒数第n个节点，让fast移动n步，然后让fast和slow同时移动，直到fast指向链表末尾。删掉slow所指向的节点就可以了。 
+- Method one: Double pointer. 如果要删除倒数第n个节点，让fast移动n步，然后让fast和slow同时移动，直到fast指向链表末尾。将slow指向的节点后移，删除slow节点指向的节点即可。 
 
   
   - note: Slow pointer should point to the node before the node need to be deleted
   
-  - ![image-20231230233030942](C:/Users/lenovo/AppData/Roaming/Typora/typora-user-images/image-20231230233030942.png)
+  - ![Alt text](image-5.png)
   
   - Code:
     ```csharp
