@@ -62,7 +62,7 @@ Linked list cycle - TBC:***leetcode142***
 
 ### [Day05: ](./Day05_HashTables01/) 
 
-> 2.24hrs
+> 2.25hrs
 
 
 Hash Array - AC: *leetcode242* TBC: ***leetcode483/49/438***
