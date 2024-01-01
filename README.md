@@ -7,9 +7,9 @@ A contiguous memory, delete / add one element will influence the fellowing eleme
 ### [Day01: Binary Search & Double Pointers](./Day1_Arrays01)
 > 2hrs 
 
-Binary Search - AC: *leetcode704/35*. TBC: Leetcode/34/69/367
+Binary Search - AC: *leetcode704/35*. TBC: ***Leetcode/34/69/367***
 
-Double Pointers - AC: *Leetcode17* TBC: Leetcode26/283/844/977.
+Double Pointers - AC: *Leetcode17* TBC: ***Leetcode26/283/844/977.***
 
 ---
 
@@ -21,7 +21,7 @@ Double Pointers - AC: *Leetcode17* TBC: Leetcode26/283/844/977.
 
 Double Pointers - AC: *leetcode977*
 
-Slider Window - AC: *leetcode107*, TBC: Leetsscode904/76
+Slider Window - AC: *leetcode107*, TBC: ***Leetsscode904/76***
 
 Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 
@@ -29,7 +29,7 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 
 ## Linked Lists
 
-### [Day03: Linked Lists](./Day03_LinkedList01/) 
+### [Day03: Linked Lists 01](./Day03_LinkedList01/) 
 
 > 3.0hrs
 
@@ -42,7 +42,7 @@ Double Pointers \ Recursive  - TBC: ***leetcode707***
 
 ---
 
-### [Day04: Linked Lists](./Day04_LinkedList02/) 
+### [Day04: Linked Lists 02](./Day04_LinkedList02/)
 
 > 2.24hrs
 
@@ -60,7 +60,7 @@ Linked list cycle - TBC:***leetcode142***
 
 
 
-### [Day05: ](./Day05_HashTables01/) 
+### [Day05:Hash Tables](./Day06_HashTables01/) 
 
 > 2.25hrs
 
@@ -71,6 +71,6 @@ Hash Set - AC: *leetcode349* TBC: ***leetcode349***
 
 Happy Number - TBC: ***leetcode349***
 
-Two Sum - TBC:***leetcode1***
+Two Sum - TBC: ***leetcode1***
 
 ---
