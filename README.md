@@ -60,3 +60,17 @@ Linked list cycle - TBC:***leetcode142***
 
 
 
+### [Day05: ](./Day05_HashTables01/) 
+
+> 2.24hrs
+
+
+Hash Array - AC: *leetcode242* TBC: ***leetcode483/49/438***
+
+Hash Set - AC: *leetcode349* TBC: ***leetcode349***
+
+Happy Number - TBC: ***leetcode349***
+
+Two Sum - TBC:***leetcode1***
+
+---
