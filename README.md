@@ -74,3 +74,18 @@ Happy Number - TBC: ***leetcode349***
 Two Sum - TBC: ***leetcode1***
 
 ---
+
+### [Day07: Hash Tables](./Day07_HashTables02/) 
+
+> 1.14hrs
+
+
+Map (Dictionary) - AC: *leetcode454*
+
+Hash Array - AC: *leetcode383*
+
+Double Pointer - TBC: ***leetcode15***
+
+Double Pointer - TBC: ***leetcode18***
+
+---
