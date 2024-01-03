@@ -89,3 +89,20 @@ Double Pointer - TBC: ***leetcode15***
 Double Pointer - TBC: ***leetcode18***
 
 ---
+
+### [Day08: Strings01](./Day08_Strings01/) 
+
+> 1.14hrs
+
+
+Swap Letters - AC: *leetcode355*
+
+String to Array, Array Reverse - AC: *leetcode541*
+
+Regular \ Local Replace - Understand: **KarmaCode54**
+
+Slow & Fast Pointer - AC: *leetcode151*
+
+Right-Rotate String - Understand: **KarmaCode55**
+
+---
