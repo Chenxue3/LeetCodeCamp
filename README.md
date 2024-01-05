@@ -106,3 +106,10 @@ Slow & Fast Pointer - AC: *leetcode151*
 Right-Rotate String - Understand: **KarmaCode55**
 
 ---
+### [Day09: KMP](./Day09_Strings02_KMP/)
+>1.5 hrs
+
+KMP Basis - Understand: **Leetcode29** 
+
+KMP Application - Understand **Leetcode459** (C# Version TBC in Master)
+
