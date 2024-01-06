@@ -113,3 +113,10 @@ KMP Basis - Understand: **Leetcode29**
 
 KMP Application - Understand **Leetcode459** (C# Version TBC in Master)
 
+---
+### [Day10: Stacks01](./Day10_Stacks01/)
+
+>
+Using Stack Implement queue- Understand: **Leetcode29** 
+
+KMP Application - Understand **Leetcode459** (C# Version TBC in Master)
