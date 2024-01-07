@@ -118,6 +118,19 @@ KMP Application - Understand **Leetcode459** (C# Version TBC in Master)
 
 > 1.32 hrs
 
-Using Stack Implement queue- AC: **Leetcode225** 
+Using Stack Implement queue- AC: *Leetcode225*
 
-Implement Queue using StacksKMP Application -AC **Leetcode232** 
+Implement Queue using StacksKMP Application -AC *Leetcode232*
+
+### [Day11: Stacks02 ](./Day11_Stacks02/) 
+
+> 0.51hrs
+
+
+Stacks  - AC: *leetcode20*
+
+Stacks - TBC: ***leetcode150***
+
+Stacks - TBC:***leetcode1047***
+
+---
