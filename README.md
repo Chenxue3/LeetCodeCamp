@@ -1,8 +1,7 @@
 # Leetcode Recordings
-***Language: C#***
-## Arrays
+> ***Language: C#***
+---
 
-A contiguous memory, delete / add one element will influence the fellowing elements. For array-related problems, we can use double pointer, Binary Search and Slide Windows.
 
 ### [Day01: Binary Search & Double Pointers](./Day1_Arrays01)
 > 2hrs 
@@ -129,8 +128,19 @@ Implement Queue using StacksKMP Application -AC *Leetcode232*
 
 Stacks  - AC: *leetcode20*
 
-Stacks - TBC: ***leetcode150***
+Stacks(Pop And Peek) / StringBuilder - AC: *leetcode150*
 
-Stacks - TBC:***leetcode1047***
+Stacks (String -> int Convert) - AC:*leetcode1047*
+
+---
+
+### [Day12: Queue ](./Day12_Stacks03/) 
+
+> 0.51hrs
+
+
+Queue (Slide-Window) 单调数列 - Understand: **leetcode239**
+
+Queue 优先级数列  - TBC: ***leetcode347***
 
 ---
