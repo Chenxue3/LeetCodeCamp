@@ -44,12 +44,7 @@ public class Solution
         {
             window.Enqueue(nums[i]);// 留下最大
         }
-        Console.WriteLine("Initial Window:");
-        foreach (int n in window.linkedList)
-        {
-            Console.Write(n + " ");
-        }
-        Console.WriteLine();
+        
 
         // 记录当前窗口的最大值
         res.Add(window.Max());
