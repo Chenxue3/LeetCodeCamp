@@ -178,7 +178,16 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 
 ---
 ### [Day16: Binary Trees](./Day16_Binary%20Tree03/)
-> 2.10 hrs
+> 1.10 hrs
 - [x] 层序遍历（迭代）、递归 AC: *leetcode104*
 - [x] 递归 AC: *leetcode111*
 - [x] 递归、层序遍历 AC: *leetcode559*
+
+---
+### [Day17: Binary Trees](./Day17_Binary%20Tree04/)
+
+> 2.1 hrs
+
+- [x] 递归 AC: *leetcode110*
+- [ ] TBC:  ***Leetcode257***
+- [ ] TBC:  ***Leetcode404***
