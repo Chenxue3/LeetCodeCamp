@@ -2,8 +2,8 @@
 > ***Language: C#***
 ---
 
-
-### [Day01: Binary Search & Double Pointers](./Day1_Arrays01)
+## Arrays
+### [Day01: Array01](./Day1_Arrays01)
 > 2hrs 
 
 - [x] Binary Search - AC: *leetcode704/35*. TBC: ***Leetcode/34/69/367***
@@ -12,7 +12,7 @@
 
 ---
 
-### [Day02: Double Pointers & Slider Window & Spiral Matrix](./Day02_Arrays02/) 
+### [Day02:Array02](./Day02_Arrays02/) 
 
 >3.35hrs
 
@@ -56,7 +56,7 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 
 ---
 
-
+## Hash Tables
 
 
 ### [Day05:Hash Tables](./Day06_HashTables01/) 
@@ -88,7 +88,8 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 - [ ] Double Pointer - TBC: ***leetcode18***
 
 ---
-
+## Strings
+> KMP TBC
 ### [Day08: Strings01](./Day08_Strings01/) 
 
 > 3.20hrs
@@ -112,6 +113,7 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 
 - [ ] KMP Application - Understand **Leetcode459** (C# Version TBC in Master)
 
+## Stack & Queue
 ---
 ### [Day10: Stacks01](./Day10_Stacks01/)
 
@@ -143,10 +145,12 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 
 - [ ] Queue 优先级数列  - TBC: ***leetcode347***
 
+## Binary Trees
+> Iteration TBC
 ---
 ### [Day14: Binary Trees](./Day14_Binary%20Tree01/) 
 
-> 2.08hrs
+> 2.0hrs
 
 
 - [x]  Binary Tree Inorder traversal - AC: *leetcode94* TBC: ***Iteration([遍历](https://programmercarl.com/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%BF%AD%E4%BB%A3%E9%81%8D%E5%8E%86.html#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E7%89%88%E6%9C%AC)/[统一迭代法](https://programmercarl.com/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E7%BB%9F%E4%B8%80%E8%BF%AD%E4%BB%A3%E6%B3%95.html#%E6%80%9D%E8%B7%AF))***
@@ -158,8 +162,8 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 ---
 
 ### [Day15: Binary Trees](./Day15_Binary%20Tree02/)
+> 2.15hrs
 - [x] 层序遍历 AC: *leetcode102*
-- [x] 层序遍历、递归 AC: *leetcode104*
 - [x] 层序遍历 AC: *leetcode107*
 - [x] 层序遍历 AC: *leetcode111*
 - [x] 层序遍历、递归 AC: *leetcode116*
@@ -167,3 +171,14 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 - [ ] TBC:  ***Leetcode429***
 - [ ] TBC:  ***Leetcode515***
 - [ ] TBC:  ***Leetcode637***
+- [x] 翻转二叉树, 递归法 AC:  *Leetcode226*
+- [x] 对称二叉树 AC:  *Leetcode101*
+- [ ] TBC:  ***Leetcode100***
+- [ ] TBC:  ***Leetcode572***
+
+---
+### [Day16: Binary Trees](./Day16_Binary%20Tree03/)
+> 2.10 hrs
+- [x] 层序遍历（迭代）、递归 AC: *leetcode104*
+- [x] 递归 AC: *leetcode111*
+- [x] 递归、层序遍历 AC: *leetcode559*

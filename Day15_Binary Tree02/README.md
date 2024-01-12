@@ -303,58 +303,9 @@
 
     ```
 
-### LC [[111] Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)
-使用递归：分别计算左右子树的最小深度，然后取最小值，最后加上根节点的深度1即可。
-  - Code 
-    ```csharp
-        /*
-        * @lc app=leetcode id=111 lang=csharp
-        *
-        * [111] Minimum Depth of Binary Tree
-        */
 
-        // @lc code=start
-        /**
-        * Definition for a binary tree node.
-        * public class TreeNode {
-        *     public int val;
-        *     public TreeNode left;
-        *     public TreeNode right;
-        *     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
-        *         this.val = val;
-        *         this.left = left;
-        *         this.right = right;
-        *     }
-        * }
-        */
-        public class Solution
-        {
-            public int MinDepth(TreeNode root)
-            {
-                int res = 0;
-                if (root == null)
-                {
-                    return res;
-                }
-                int minLeft = MinDepth(root.left);
-                int minRight = MinDepth(root.right);
-
-                // handle the situation which the node has only one child
-                if(root.left == null && root.right != null){
-                    return 1 + minRight;
-                }
-                if(root.right == null && root.left != null){
-                    return 1 + minLeft;
-                }
-                return 1 + Math.Min(minLeft,minRight);
-            }
-        }
-        // @lc code=end
-
-
-    ```
     
-### LC 
+### LC [[116] Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)
 - 迭代法（层序遍历）
   - Code 
     ```csharp
@@ -493,20 +444,111 @@
         // @lc code=end
     ```
 
-### LC 
+
+### LC [[226] Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
+递归法
+  - Code 
+    ```csharp
+        /*
+        * @lc app=leetcode id=226 lang=csharp
+        *
+        * [226] Invert Binary Tree
+        */
+
+        // @lc code=start
+        /**
+        * Definition for a binary tree node.
+        * public class TreeNode {
+        *     public int val;
+        *     public TreeNode left;
+        *     public TreeNode right;
+        *     public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
+        *         this.val = val;
+        *         this.left = left;
+        *         this.right = right;
+        *     }
+        * }
+        */
+        public class Solution {
+            public TreeNode InvertTree(TreeNode root) {
+                return InvertHelper(root);
+            }
+
+            private TreeNode InvertHelper(TreeNode root){
+                if(root == null){
+                    return root;
+                }
+
+                swap(root);
+
+                InvertHelper(root.left);
+                InvertHelper(root.right);
+
+                return root;
+                
+            }
+
+            public void swap(TreeNode node) {
+                TreeNode temp = node.left;
+                node.left = node.right;
+                node.right = temp;
+            }
+        }
+        // @lc code=end
+
+
+    ```
+
+### LC [[101] Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
 
   - Code 
     ```csharp
-    
+        /*
+        * @lc app=leetcode id=101 lang=csharp
+        *
+        * [101] Symmetric Tree
+        */
+
+        // @lc code=start
+        //  注意是要对比一棵树的左子树和右子树，不是单单是左节点和右节点
+        public class Solution {
+            public bool IsSymmetric(TreeNode root) {
+                if(root == null){
+                    return true;
+                }
+                return helper(root.left, root.right);
+            }
+
+            public bool helper(TreeNode left, TreeNode right){
+                /* 终止条件 */
+                // 排除形状不同
+                if(left == null && right != null){
+                    return false;
+                }
+                if(left == null && right == null){
+                    return true;
+                }
+                if(left != null && right == null){
+                    return false;
+                }
+                // 排除数值不同的情况
+                if(left.val != right.val){
+                    return false;
+                }
+
+                
+                /* 单层逻辑：*/
+
+                // 最外层的节点是否相同
+                bool outside = helper(left.left, right.right);
+                // 中间节点是否相同
+                bool insider = helper(left.right, right.left);
+
+                return outside & insider;
+
+            }
+        }
+        // @lc code=end
+
+
     ```
-
-### LC 
-
-  - Code 
-    ```csharp
-    
-    ```
-
-
- 
-
