@@ -21,6 +21,34 @@
 public class Solution {
     public TreeNode ConstructMaximumBinaryTree(int[] nums) {
         
+        if(nums == null || nums.Length == 0) {
+            return null;
+        }
+
+        int maxValue = int.MinValue;
+        int maxIndex = -1;
+
+          for (var i = 0; i < nums.Length; i++) 
+          {
+            if (nums[i] > maxValue) {
+                maxIndex = i;
+                maxValue = nums[i];
+            }
+        }
+
+        
+        TreeNode node = new TreeNode(nums[maxIndex]);
+
+        //left
+        node.left = ConstructMaximumBinaryTree(nums.Take(maxIndex).ToArray());
+
+        //right
+        node.right = ConstructMaximumBinaryTree(nums.Skip(maxIndex + 1).ToArray());
+
+
+        //return
+        return node;
+        
     }
 }
 // @lc code=end

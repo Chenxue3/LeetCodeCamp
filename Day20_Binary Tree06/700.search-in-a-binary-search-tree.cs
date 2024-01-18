@@ -20,7 +20,40 @@
  */
 public class Solution {
     public TreeNode SearchBST(TreeNode root, int val) {
+        // 递归
+        /*
+        TreeNode node = null;
         
+        if(root == null){
+            return null;
+        }
+
+        if(root.val == val){
+            return root;
+        }
+        if(root.val < val){
+            node = SearchBST(root.right, val);
+        }
+        else{
+            node = SearchBST(root.left, val);
+        }
+
+        return node;
+        */
+
+        // 迭代
+        while(root != null){
+            if(root.val == val){
+                return root;
+            }
+            if(root.val < val){
+                root = root.right;
+            } 
+            else if(root.val > val){
+                root = root.left;
+            }
+        }
+        return null;
     }
 }
 // @lc code=end

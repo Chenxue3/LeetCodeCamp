@@ -20,7 +20,32 @@
  */
 public class Solution {
     public bool IsValidBST(TreeNode root) {
+        // 中序遍历
+        List<int> myArray = helper(root, new List<int>());
+        for (int i = 1; i < myArray.Count; i++)
+        {
+            if(myArray[i-1] >= myArray[i]){
+                return false;
+            }
+        }
         
+        return true;
+    }
+
+     private List<int> helper(TreeNode root, List<int> res)
+    {
+        if (root == null)
+        {
+            return res;
+        }
+
+        helper(root.left, res);
+        res.Add(root.val);
+        helper(root.right, res);
+
+
+        return res;
+
     }
 }
 // @lc code=end
