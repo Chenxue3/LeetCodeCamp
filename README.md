@@ -206,3 +206,9 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 - [x] 递归 合并二叉树 AC: *leetcode617*
 - [x] 递归、迭代 搜索二叉树 AC: *leetcode700*
 - [x] 递归 验证二叉搜索树 AC: *laeetcode98*
+
+### [Day21: Binary Trees](./Day21_Binary%20Tree07/)
+> 1.2 hrs
+- [x] 递归 AC: *leetcode530*
+- [ ] TBC:  ***Leetcode501***
+- [ ] TBC:  ***Leetcode236***
