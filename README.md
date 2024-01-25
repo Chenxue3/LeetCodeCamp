@@ -146,7 +146,29 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 - [ ] Queue 优先级数列  - TBC: ***leetcode347***
 
 ## Binary Trees
-> Iteration TBC
+- Tree Traversal
+  - Deep First Search (recursive method using stack & iterative method)
+    - Preorder 
+    - Inorder
+    - Postorder 
+  - Breadth First Search
+    - Level Order: using queue to store nodes 
+- Tree Recursion
+  - Divide & Conquer
+  - Backtracking
+- Tree Properties
+  - Symmetric: trees which are mirror images of each other
+  - Balanced: the left and right subtrees of every node differ in height by no more than 1
+  - Complete: every level of the tree is fully filled, except for perhaps the last level. To the extent that the last level is filled, it is filled left to right
+  - Full: every node has either zero or two children
+  - Perfect:   a tree that is both full and complete
+  - Binary Search Tree: a binary tree in which every node fits a specific ordering property: all left descendants <= n < all right descendants
+- Conclusion
+  - 涉及到二叉树的构造，无论普通二叉树还是二叉搜索树一定前序，都是先构造中节点。
+
+  - 求普通二叉树的属性，一般是后序，一般要通过递归函数的返回值做计算。
+
+  - 求二叉搜索树的属性，一定是中序了，要不白瞎了有序性了
 ---
 ### [Day14: Binary Trees](./Day14_Binary%20Tree01/) 
 
@@ -213,8 +235,15 @@ Spiral Matrix - AC: *leetcode59*, TBC: ***Leetcode54***
 - [ ] TBC:  ***Leetcode501***
 - [ ] TBC:  ***Leetcode236***
 
+### [Day22: Binary Trees](./Day22_Binary%20Tree08/)
+> 2.02 hrs
+- [x] 递归 AC: *leetcode235*
+- [x] 递归 AC: *leetcode701*
+- [x] 递归 AC: *leetcode450*
+
 ### [Day23: Binary Trees](./Day23_Binary%20Tree09/)
 > 1.32 hrs
 - [x] 递归+双指针 AC: *leetcode108*
 - [x] 递归 AC: *leetcode538*
 - [x] 递归 AC: *leetcode669*
+
